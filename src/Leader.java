@@ -3,7 +3,7 @@ abstract class Leader {
     protected String country;
     protected int yearsInPower;
 
-    // Constructor
+    // Konstruktør
     public Leader(String name, String country, int yearsInPower) {
         this.name = name;
         this.country = country;

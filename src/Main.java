@@ -5,11 +5,11 @@ public class Main {
     public static void main(String[] args) {
         List<Leader> leaders = new ArrayList<>();
 
-        // Create leader objects
+        // Leader Objekter
         Leader leader1 = new MilitaryDictator("General Bob", "England", 12);
         Leader leader2 = new PoliticalDictator("Senator Palpatine", "Nabu", 5);
 
-        // Add them to the list
+        // Tilføjer MilitaryDictator og PoliticalDictator
         leaders.add(leader1);
         leaders.add(leader2);
 

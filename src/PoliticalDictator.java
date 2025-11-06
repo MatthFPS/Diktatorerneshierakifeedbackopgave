@@ -1,6 +1,6 @@
 public class PoliticalDictator extends Leader implements Interface {
 
-    // Constructor name must match the class name exactly
+    // Konstruktør
     public PoliticalDictator(String name, String country, int yearsInPower) {
         super(name, country, yearsInPower);
     }
