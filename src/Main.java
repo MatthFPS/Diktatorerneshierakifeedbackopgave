@@ -8,22 +8,26 @@ public class Main {
         // Leader Objekter
         Leader leader1 = new MilitaryDictator("General Bob", "England", 12);
         Leader leader2 = new PoliticalDictator("Senator Palpatine", "Nabu", 5);
-
+        Leader leader3 = new AIDictator("Master Robert", "Alpha Centaru", 405,"Master", 40);
         // Tilføjer MilitaryDictator og PoliticalDictator
         leaders.add(leader1);
         leaders.add(leader2);
+        leaders.add(leader3);
 
         // Looper igennem hver leader og kalder metoderne
         for (Leader leader : leaders) {
             System.out.println("==========================");
             leader.printDetails();
+            System.out.println("==========================");
             leader.giveSpeech();
 
         // Poweractions delene af koden
             if (leader instanceof Poweractions) {
                 Poweractions actions = (Poweractions) leader;
+                System.out.println("==========================");
                 actions.holdParade();
                 actions.repressOpposition();
+                System.out.println("==========================");
                 actions.implementPolicy();
                 System.out.println("==========================");
                 System.out.println();
