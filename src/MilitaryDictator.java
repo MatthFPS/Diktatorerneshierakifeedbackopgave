@@ -1,4 +1,4 @@
-public class MilitaryDictator extends Leader implements Interface {
+public class MilitaryDictator extends Leader implements Poweractions {
 
     // Constructor name must match the class name exactly
     public MilitaryDictator(String name, String country, int yearsInPower) {
@@ -28,6 +28,6 @@ public class MilitaryDictator extends Leader implements Interface {
     @Override
     public void printDetails() {
         super.printDetails();
-        System.out.println("Rank: Generel");
+        System.out.println("Military Rank: Generel");
     }
 }

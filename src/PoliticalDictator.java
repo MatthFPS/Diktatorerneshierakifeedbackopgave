@@ -1,4 +1,4 @@
-public class PoliticalDictator extends Leader implements Interface {
+public class PoliticalDictator extends Leader implements Poweractions {
 
     // Konstruktør
     public PoliticalDictator(String name, String country, int yearsInPower) {
@@ -26,6 +26,6 @@ public class PoliticalDictator extends Leader implements Interface {
     @Override
     public void printDetails() {
         super.printDetails();
-        System.out.println("Rank: Senator");
+        System.out.println("Party Name: Senator");
     }
 }

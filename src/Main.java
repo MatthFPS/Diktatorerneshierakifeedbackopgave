@@ -19,9 +19,9 @@ public class Main {
             leader.printDetails();
             leader.giveSpeech();
 
-        // Interface(Poweractions) delene af koden
-            if (leader instanceof Interface) {
-                Interface actions = (Interface) leader;
+        // Poweractions delene af koden
+            if (leader instanceof Poweractions) {
+                Poweractions actions = (Poweractions) leader;
                 actions.holdParade();
                 actions.repressOpposition();
                 actions.implementPolicy();
