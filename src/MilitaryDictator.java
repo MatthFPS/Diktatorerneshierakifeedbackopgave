@@ -1,6 +1,6 @@
 public class MilitaryDictator extends Leader implements Poweractions {
 
-    // Constructor name must match the class name exactly
+    // Konstruktør
     public MilitaryDictator(String name, String country, int yearsInPower) {
         super(name, country, yearsInPower);
     }

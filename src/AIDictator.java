@@ -2,7 +2,7 @@ public class AIDictator extends Leader {
     private final String aiRank;
     private int popularity;
 
-    // Constructor extends base one and adds aiRank + popularity
+    // Konstruktøren extender base one og tilføjer aiRank og popularity.
     public AIDictator(String name, String country, int yearsInPower, String aiRank, int popularity) {
         super(name, country, yearsInPower);
         this.aiRank = aiRank;
